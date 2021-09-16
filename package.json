@@ -1,18 +1,19 @@
 {
   "name": "music-bot",
   "version": "1.0.0",
-  "repository": "https://github.com/TannerGabriel/discord-music-bot.git",
+  "repository": "https://github.com/Drunkiel/DiscordBot",
   "description": "A simple discord music bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "keywords": [
     "discord",
     "music",
     "bot"
   ],
-  "author": "Gabriel Tanner",
+  "author": "Drunkiel",
   "license": "MIT",
   "dependencies": {
     "@discordjs/opus": "^0.6.0",
